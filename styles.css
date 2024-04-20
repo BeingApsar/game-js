@@ -85,3 +85,22 @@ html,body {
     background-color: rgb(16, 84, 27);
     cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+    #ptop {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        height: auto;
+    }
+
+    .ele{
+        margin-bottom: 10px;
+    }
+
+    #pbtm {
+        padding: 10px;
+    }
+
+}   
